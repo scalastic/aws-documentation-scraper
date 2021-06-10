@@ -1,0 +1,151 @@
+﻿{
+  "landing-page": {
+    "main-area": {
+      "sections": {
+        "section": [
+          {
+            "tiles": {
+              "tile": [
+                {
+                  "href": "/AWSEC2/latest/UserGuide/",
+                  "abstract": "Describes key concepts of Amazon EC2 and provides instructions for using the features of Amazon EC2.",
+                  "more-links": "",
+                  "title": "User Guide for Linux Instances"
+                },
+                {
+                  "href": "/AWSEC2/latest/WindowsGuide/",
+                  "abstract": "Describes key concepts for Amazon EC2 and provides instructions for launching and using your Windows instance.",
+                  "more-links": "",
+                  "title": "User Guide for Windows Instances"
+                },
+                {
+                  "href": "/enclaves/latest/user/",
+                  "abstract": "Describes key concepts for AWS Nitro Enclaves and provides instructions for using enclaves.",
+                  "more-links": "",
+                  "title": "User Guide for AWS Nitro Enclaves"
+                },
+                {
+                  "href": "/AWSEC2/latest/APIReference/",
+                  "abstract": "Documents the Amazon EC2 Query API.",
+                  "more-links": "",
+                  "title": "API Reference"
+                },
+                {
+                  "href": "/cli/latest/reference/ec2/",
+                  "abstract": "Documents the AWS CLI commands for Amazon EC2.",
+                  "more-links": {
+                    "link": {
+                      "href": "/cli/latest/reference/ec2/",
+                      "content": "HTML"
+                    }
+                  },
+                  "title": "EC2 section of the AWS CLI Reference",
+                  "generic": true
+                },
+                {
+                  "href": "/ec2-instance-connect/latest/APIReference/",
+                  "abstract": "Documents the Amazon EC2 Instance Connect Query API.",
+                  "more-links": "",
+                  "title": "EC2 Instance Connect API Reference"
+                }
+              ]
+            },
+            "id": "amazon-ec2",
+            "title": "Amazon EC2"
+          },
+          {
+            "tiles": {
+              "tile": [
+                {
+                  "href": "/autoscaling/ec2/userguide/",
+                  "abstract": "Provides a conceptual overview of Amazon EC2 Auto Scaling and includes detailed instructions for using the various features.",
+                  "more-links": "",
+                  "title": "User Guide"
+                },
+                {
+                  "href": "/cli/latest/reference/autoscaling/index.html",
+                  "abstract": "Describes the AWS CLI commands that you can use to administer Amazon EC2 Auto Scaling. Provides syntax, options, and usage examples for each command.",
+                  "more-links": {
+                    "link": {
+                      "href": "/cli/latest/reference/autoscaling/index.html",
+                      "content": "HTML"
+                    }
+                  },
+                  "title": "Amazon EC2 Auto Scaling section of the AWS CLI Reference",
+                  "generic": true
+                },
+                {
+                  "href": "/autoscaling/ec2/APIReference/",
+                  "abstract": "Describes all the API operations for Amazon EC2 Auto Scaling in detail. Also provides sample requests, responses, and errors for the supported web services protocols.",
+                  "more-links": "",
+                  "title": "API Reference"
+                }
+              ]
+            },
+            "id": "amazon-ec2-auto-scaling",
+            "title": "Amazon EC2 Auto Scaling"
+          },
+          {
+            "tiles": {
+              "tile": {
+                "href": "/vm-import/latest/userguide/",
+                "abstract": "Import your virtual machine images to Amazon EC2.",
+                "more-links": "",
+                "title": "VM Import/Export User Guide"
+              }
+            },
+            "id": "migrate-to-amazon-ec2",
+            "title": "Migrate to Amazon EC2"
+          }
+        ]
+      }
+    },
+    "side-nav": {
+      "side-nav-tiles": {
+        "side-nav-tile": {
+          "title": "Related Links",
+          "list-items": {
+            "list-item": [
+              {
+                "href": "http://docs.aws.amazon.com/general/latest/gr/glos-chap.html",
+                "content": "AWS\n            Glossary"
+              },
+              {
+                "href": "https://aws.amazon.com/documentation/gettingstarted/",
+                "content": "Getting Started\n            with AWS"
+              },
+              {
+                "href": "https://aws.amazon.com/tools/",
+                "content": "SDKs & Tools"
+              },
+              {
+                "href": "http://aws.amazon.com/documentation/kindle",
+                "content": "AWS Documentation on\n            Kindle"
+              },
+              {
+                "href": "http://docs.aws.amazon.com/general/latest/gr/Welcome.html",
+                "content": "AWS General\n            Reference"
+              },
+              {
+                "href": "https://aws.amazon.com/training/",
+                "content": "AWS Training"
+              },
+              {
+                "href": "https://aws.amazon.com/solutions/case-studies/",
+                "content": "AWS Case\n            Studies"
+              },
+              {
+                "href": "https://aws.amazon.com/whitepapers/",
+                "content": "AWS Whitepapers"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "feedbackCTI": "EC2",
+    "titleabbrev": "Amazon EC2",
+    "abstract": "Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable computing capacity—literally, servers in Amazon's data centers—that you use to build and host your software systems.",
+    "title": "Amazon Elastic Compute Cloud Documentation"
+  }
+}

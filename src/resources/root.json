@@ -1,0 +1,2004 @@
+{
+  "main-landing-page":{
+    "general_resources":{
+      "tiles":{
+        "tile":[
+          {
+            "abstract":"Find tutorials, starter projects, and more to get you started on AWS.",
+            "title":{
+              "href":"https://aws.amazon.com/getting-started/?ref=docs_gateway",
+              "content":"Getting\n          Started"
+            }
+          },
+          {
+            "abstract":"Use the A-to-Z glossary to find AWS-defined terms used throughout AWS. ",
+            "title":{
+              "href":"/general/latest/gr/glos-chap.html?ref=docs_gateway",
+              "content":"Glossary"
+            }
+          },
+          {
+            "abstract":"Find time-tested strategies, guides, and patterns from AWS and APN Partners to\n          help accelerate your cloud adoption.",
+            "title":{
+              "href":"https://aws.amazon.com/prescriptive-guidance/",
+              "content":"AWS Prescriptive\n          Guidance"
+            }
+          },
+          {
+            "abstract":"Find automated deployment guides for popular solutions on AWS.",
+            "title":{
+              "href":"https://aws.amazon.com/quickstart/",
+              "content":"Quick Starts"
+            }
+          },
+          {
+            "abstract":"Learn how to architect more efficiently and effectively on AWS with our expert\n          guidance, best practices, and patterns.",
+            "title":{
+              "href":"https://aws.amazon.com/architecture/",
+              "content":"AWS Architecture Center"
+            }
+          },
+          {
+            "abstract":"Find vetted, technical reference implementations designed to help you solve common\n          problems.",
+            "title":{
+              "href":"https://aws.amazon.com/solutions/",
+              "content":"AWS Solutions"
+            }
+          },
+          {
+            "abstract":"Expand your knowledge of the cloud with AWS technical content, including technical\n          whitepapers, technical guides, and reference architecture diagrams.",
+            "title":{
+              "href":"https://aws.amazon.com/whitepapers/?ref=docs_gateway",
+              "content":"AWS Whitepapers"
+            }
+          },
+          {
+            "abstract":"Find some of the most frequent questions and requests that we receive from AWS\n          customers.",
+            "title":{
+              "href":"https://aws.amazon.com/premiumsupport/knowledge-center/?ref=docs_gateway",
+              "content":"FAQs"
+            }
+          },
+          {
+            "abstract":"Learn from AWS experts and advance your skills and knowledge. ",
+            "title":{
+              "href":"https://aws.amazon.com/training/?ref=docs_gateway",
+              "content":"AWS Training &\n          Certification"
+            }
+          },
+          {
+            "abstract":"Learn about how more than a million active customers use AWS.",
+            "title":{
+              "href":"https://aws.amazon.com/solutions/case-studies/?ref=docs_gateway",
+              "content":"Case\n          Studies"
+            }
+          },
+          {
+            "abstract":"Download AWS guides for free on your Kindle.",
+            "title":{
+              "href":"/kindle/?ref=docs_gateway",
+              "content":"Documentation on Kindle"
+            }
+          }
+        ]
+      },
+      "id":"general_resources",
+      "title":"General Resources"
+    },
+    "tutorials":{
+      "id":"tutorials",
+      "title":"Tutorials and Projects",
+      "sections":{
+        "section":[
+          {
+            "tiles":{
+              "tile":[
+                {
+                  "footer-right":"Amazon EC2",
+                  "abstract":"Launch and connect to a Linux instance in the cloud.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/",
+                    "content":"Launch a Linux Virtual Machine"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"Amazon EC2",
+                  "abstract":"Launch, configure, and connect to a Windows instance in the cloud.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/launch-windows-vm/",
+                    "content":"Launch\n              a Windows Virtual Machine"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"AWS Lambda",
+                  "abstract":"Learn the basics of running code on AWS Lambda without\n              provisioning or managing servers.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/run-serverless-code/",
+                    "content":"Run\n              a Serverless \"Hello, World!\""
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"AWS CodeStar and AWS Cloud9",
+                  "abstract":"Develop, build, and deploy a Node.js serverless web application using an\n              IDE.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/build-serverless-app-codestar-cloud9/",
+                    "content":"Build a Serverless Application"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"Amazon EC2 and\n              AWS Marketplace",
+                  "abstract":"Get a website up and running with WordPress installed on an\n              Amazon EC2 virtual machine.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/launch-a-wordpress-website/",
+                    "content":"Launch a WordPress Website"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"Amazon EC2, AWS Elastic Beanstalk,\n              Amazon DynamoDB, and more",
+                  "abstract":"Launch and run a highly available Node.js web application on AWS.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/projects/deploy-nodejs-web-app/",
+                    "content":"Deploy a Node.js Web App"
+                  },
+                  "footer-left":"60 Minutes"
+                }
+              ]
+            },
+            "title":"Websites & Web Apps"
+          },
+          {
+            "tiles":{
+              "tile":[
+                {
+                  "footer-right":"AWS CodeCommit",
+                  "abstract":"Securely store and version your project with\n              AWS CodeCommit.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/projects/migrate-git-repository/",
+                    "content":"Migrate a Git Repository to AWS"
+                  },
+                  "footer-left":"30 Minutes"
+                },
+                {
+                  "footer-right":"AWS CodeDeploy",
+                  "abstract":"Learn how to easily deploy code to virtual machines in the cloud.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/deploy-code-vm/",
+                    "content":"Deploy\n              Code to a Virtual Machine"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"Amazon EC2 and Amazon EBS",
+                  "abstract":"Quickly create a build server for continuous integration (CI) on\n              AWS.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/projects/setup-jenkins-build-server/",
+                    "content":"Set\n              Up a Jenkins Build Server"
+                  },
+                  "footer-left":"45 Minutes"
+                },
+                {
+                  "footer-right":"AWS CodePipeline",
+                  "abstract":"Create an automated software release pipeline that deploys a live sample\n              app.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/continuous-deployment-pipeline/",
+                    "content":"Set Up a Continuous Deployment Pipeline"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"AWS Elastic Beanstalk CLI",
+                  "abstract":"Get a sample PHP application up and running with\n              AWS Elastic\n              Beanstalk.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/deploy-app-command-line-elastic-beanstalk/",
+                    "content":"Deploy and Manage a Web Application"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"Amazon ECS",
+                  "abstract":"Run a Docker-enabled sample application on an Amazon ECS\n              cluster behind a load balancer.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/deploy-docker-containers/",
+                    "content":"Deploy Docker Containers"
+                  },
+                  "footer-left":"10 Minutes"
+                }
+              ]
+            },
+            "title":"DevOps"
+          },
+          {
+            "tiles":{
+              "tile":[
+                {
+                  "footer-right":"Amazon S3",
+                  "abstract":"Securely store and access files at scale in the AWS Cloud.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/backup-files-to-amazon-s3/",
+                    "content":"Store and Retrieve a File"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"Amazon S3 Glacier and IAM",
+                  "abstract":"Easily deploy and enforce compliance policies on archived data using\n              Amazon S3\n              Glacier.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/projects/set-up-compliant-archive/",
+                    "content":"Set Up a Compliant Archive"
+                  },
+                  "footer-left":"60 Minutes"
+                },
+                {
+                  "footer-right":"AWS Storage Gateway, Amazon S3, and\n              more",
+                  "abstract":"Eliminate on-premises tape and automation with a durable, affordable online\n              archive.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/projects/replace-tape-with-cloud/",
+                    "content":"Replace Tape with Cloud Storage"
+                  },
+                  "footer-left":"40 Minutes"
+                },
+                {
+                  "footer-right":"Amazon EFS",
+                  "abstract":"Learn how to create a Linux system sharable elastic file system in the\n              cloud.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/create-network-file-system/",
+                    "content":"Create a Network File System"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"Amazon S3 and AWS CLI",
+                  "abstract":"Use the AWS Command Line Interface (CLI) to access\n              Amazon S3. ",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/",
+                    "content":"Batch\n              Upload Files to the Cloud"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"AWS Snowball and Amazon S3",
+                  "abstract":"Use an AWS Snowball appliance to migrate petabyte-scale data\n              into Amazon\n              S3.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/projects/migrate-petabyte-scale-data/",
+                    "content":"Migrate Petabyte-Scale Data"
+                  },
+                  "footer-left":"60 Minutes"
+                }
+              ]
+            },
+            "title":"Storage"
+          },
+          {
+            "tiles":{
+              "tile":[
+                {
+                  "footer-right":"Amazon DynamoDB",
+                  "abstract":"Get hands-on with scalable, low-latency NoSQL in the cloud.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/create-nosql-table/",
+                    "content":"Create and Query a NoSQL Table"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"Amazon RDS",
+                  "abstract":"Create an environment to run your MySQL database, connect to the database, and\n              delete the DB.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/create-mysql-db/",
+                    "content":"Create\n              and Connect to a MySQL Database"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"Amazon RDS",
+                  "abstract":"Create an environment to run your PostgreSQL database, connect to the\n              database, and delete the DB.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/create-connect-postgresql-db/",
+                    "content":"Create and Connect to a PostgreSQL Database"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"Amazon Redshift, Amazon RDS, and\n              more",
+                  "abstract":"Migrate your Oracle Data Warehouse to Amazon Redshift with\n              minimal downtime.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/projects/migrate-oracle-to-amazon-redshift/",
+                    "content":"Migrate from Oracle to Amazon Redshift"
+                  },
+                  "footer-left":"120 Minutes"
+                },
+                {
+                  "footer-right":"Amazon RDS",
+                  "abstract":"Create a Microsoft SQL Server database, connect to the database instance, and\n              delete the DB.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/tutorials/create-microsoft-sql-db/",
+                    "content":"Create and Connect to a Microsoft SQL Server Database"
+                  },
+                  "footer-left":"10 Minutes"
+                },
+                {
+                  "footer-right":"Amazon Aurora, Amazon RDS,\n              AWS DMS, and more",
+                  "abstract":"Migrate your Oracle Database to Amazon Aurora with minimal\n              downtime.",
+                  "title":{
+                    "href":"https://aws.amazon.com/getting-started/projects/migrate-oracle-to-amazon-aurora/",
+                    "content":"Migrate from Oracle to Amazon Aurora"
+                  },
+                  "footer-left":"120 Minutes"
+                }
+              ]
+            },
+            "title":"Databases"
+          }
+        ]
+      }
+    },
+    "feedbackCTI":"Landing Pages",
+    "abstract":"Find user guides, developer guides, API references, tutorials, and more.",
+    "title":"AWS Documentation",
+    "sdks":{
+      "tiles":{
+        "tile":[
+          {
+            "image":"images/sdks/aws-cli.png",
+            "href":"https://aws.amazon.com/cli/",
+            "content":"AWS\n        Command Line Interface (CLI)"
+          },
+          {
+            "image":"images/sdks/javascript.png",
+            "href":"https://aws.amazon.com/sdk-for-browser/",
+            "content":"JavaScript"
+          },
+          {
+            "image":"images/sdks/python.png",
+            "href":"https://aws.amazon.com/sdk-for-python/",
+            "content":"Python"
+          },
+          {
+            "image":"images/sdks/php.png",
+            "href":"https://aws.amazon.com/sdk-for-php/",
+            "content":"PHP"
+          },
+          {
+            "image":"images/sdks/dot-net.png",
+            "href":"https://aws.amazon.com/sdk-for-net/",
+            "content":".NET"
+          },
+          {
+            "image":"images/sdks/ruby.png",
+            "href":"https://aws.amazon.com/sdk-for-ruby/",
+            "content":"Ruby"
+          },
+          {
+            "image":"images/sdks/java.png",
+            "href":"https://aws.amazon.com/sdk-for-java/",
+            "content":"Java"
+          },
+          {
+            "image":"images/sdks/golang.png",
+            "href":"https://aws.amazon.com/sdk-for-go/",
+            "content":"Go"
+          },
+          {
+            "image":"images/sdks/nodejs.png",
+            "href":"https://aws.amazon.com/sdk-for-node-js/",
+            "content":"Node.js"
+          },
+          {
+            "image":"images/sdks/cpp.png",
+            "href":"https://aws.amazon.com/sdk-for-cpp/",
+            "content":"C++"
+          },
+          {
+            "image":"images/sdks/android.png",
+            "href":"/aws-mobile/latest/developerguide/getting-started.html",
+            "content":"Android"
+          },
+          {
+            "image":"images/sdks/ios.png",
+            "href":"/aws-mobile/latest/developerguide/getting-started.html",
+            "content":"iOS"
+          }
+        ]
+      },
+      "more-info":{
+        "href":"https://aws.amazon.com/getting-started/tools-sdks/",
+        "content":"View all\n      SDKs and Toolkits"
+      },
+      "id":"sdks",
+      "title":"SDKs and Toolkits"
+    },
+    "service-categories":{
+      "tiles":{
+        "tile":[
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"Amazon",
+                  "name":"EC2",
+                  "href":"/ec2/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"App Runner",
+                  "href":"/apprunner/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Batch",
+                  "href":"/batch/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Elastic Beanstalk",
+                  "href":"/elastic-beanstalk/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"EC2 Image Builder",
+                  "href":"/imagebuilder/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"End-of-Support Migration Program (EMP) for Windows Server",
+                  "href":"/emp/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Lambda",
+                  "href":"/lambda/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Launch Wizard",
+                  "href":"/launchwizard/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Lightsail",
+                  "href":"/lightsail/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Outposts",
+                  "href":"/outposts/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"ParallelCluster",
+                  "href":"/parallelcluster/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Serverless Application Model (AWS SAM)",
+                  "href":"/serverless-application-model/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Serverless Application Repository",
+                  "href":"/serverlessrepo/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Wavelength",
+                  "href":"/wavelength/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Compute"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"Amazon",
+                  "name":"ECR",
+                  "href":"/ecr/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"ECS",
+                  "href":"/ecs/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"EKS",
+                  "href":"/eks/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"App2Container",
+                  "href":"/app2container/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"App Runner",
+                  "href":"/apprunner/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Red Hat OpenShift Service on AWS",
+                  "href":"/ROSA/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Containers"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"Amazon",
+                  "name":"S3",
+                  "href":"/s3/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Backup",
+                  "href":"/aws-backup/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"EBS",
+                  "href":"/ebs/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"EFS",
+                  "href":"/efs/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"FSx",
+                  "href":"/fsx/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"S3 Glacier",
+                  "href":"/s3/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Snow Family",
+                  "href":"/snowball/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Storage Gateway",
+                  "href":"/storagegateway/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Storage"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"Amazon",
+                  "name":"Aurora",
+                  "href":"/rds/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"DocumentDB",
+                  "href":"/documentdb/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"DynamoDB",
+                  "href":"/dynamodb/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"ElastiCache",
+                  "href":"/elasticache/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Keyspaces (for Apache Cassandra)",
+                  "href":"/keyspaces/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Neptune",
+                  "href":"/neptune/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"QLDB",
+                  "href":"/qldb/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"RDS",
+                  "href":"/rds/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Redshift",
+                  "href":"/redshift/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Timestream",
+                  "href":"/timestream/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Database"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"Identity & Access Management (IAM)",
+                  "href":"/iam/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Artifact",
+                  "href":"/artifact/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Audit Manager",
+                  "href":"/audit-manager/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Cognito",
+                  "href":"/cognito/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Detective",
+                  "href":"/detective/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Directory Service",
+                  "href":"/directory-service/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Firewall Manager",
+                  "href":"/firewall-manager/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Cloud Directory",
+                  "href":"/clouddirectory/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"GuardDuty",
+                  "href":"/guardduty/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Inspector",
+                  "href":"/inspector/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Macie",
+                  "href":"/macie/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Network Firewall",
+                  "href":"/network-firewall/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Resource Access Manager (AWS RAM)",
+                  "href":"/ram/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Resource Groups",
+                  "href":"/ARG/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Secrets Manager",
+                  "href":"/secretsmanager/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Security Hub",
+                  "href":"/securityhub/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Shield",
+                  "href":"/shield/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Single Sign-On",
+                  "href":"/singlesignon/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Tag Editor",
+                  "href":"/ARG/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"WAF",
+                  "href":"/waf/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Security, Identity, & Compliance"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"Cryptographic Services Overview",
+                  "href":"/crypto/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"PKI Services Overview",
+                  "href":"/crypto/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"CloudHSM",
+                  "href":"/cloudhsm/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Key Management Service (AWS KMS)",
+                  "href":"/kms/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Crypto Tools",
+                  "href":"/aws-crypto-tools/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Certificate Manager",
+                  "href":"/acm/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Certificate Manager Private Certificate Authority",
+                  "href":"/acm/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Signer",
+                  "href":"/signer/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Cryptography & PKI"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"Amazon",
+                  "name":"SageMaker",
+                  "href":"/sagemaker/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Augmented AI (A2I)",
+                  "href":"/augmented-ai/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"CodeGuru",
+                  "href":"/codeguru/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Comprehend",
+                  "href":"/comprehend/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"DevOps Guru",
+                  "href":"/devops-guru/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Elastic Inference",
+                  "href":"/elastic-inference/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Forecast",
+                  "href":"/forecast/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Fraud Detector",
+                  "href":"/frauddetector/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"HealthLake",
+                  "href":"/healthlake/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Kendra",
+                  "href":"/kendra/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Lex",
+                  "href":"/lex/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Lookout for Equipment",
+                  "href":"/lookout-for-equipment/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Lookout for Metrics",
+                  "href":"/lookout-for-metrics/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Lookout for Vision",
+                  "href":"/lookout-for-vision/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Monitron",
+                  "href":"/Monitron/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Panorama",
+                  "href":"/panorama/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Personalize",
+                  "href":"/personalize/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Polly",
+                  "href":"/polly/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Rekognition",
+                  "href":"/rekognition/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Textract",
+                  "href":"/textract/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Translate",
+                  "href":"/translate/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Transcribe",
+                  "href":"/transcribe/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Deep Learning AMIs",
+                  "href":"/dlami/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Deep Learning Containers",
+                  "href":"/deep-learning-containers/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"DeepComposer",
+                  "href":"/deepcomposer/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"DeepLens",
+                  "href":"/deeplens/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"DeepRacer",
+                  "href":"/deepracer/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Apache MXNet on AWS",
+                  "href":"/mxnet/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Machine Learning",
+                  "href":"/machine-learning/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Machine Learning"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"AppConfig",
+                  "href":"/appconfig/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Auto Scaling",
+                  "href":"/autoscaling/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Backint Agent for SAP HANA",
+                  "href":"/backint/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Chatbot",
+                  "href":"/chatbot/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"CloudFormation",
+                  "href":"/cloudformation/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"CloudTrail",
+                  "href":"/cloudtrail/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"CloudWatch",
+                  "href":"/cloudwatch/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Command Line Interface (AWS CLI)",
+                  "href":"/cli/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Compute Optimizer",
+                  "href":"/compute-optimizer/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Config",
+                  "href":"/config/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Console Mobile Application",
+                  "href":"/consolemobileapp/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Control Tower",
+                  "href":"/controltower/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Data Lifecycle Manager",
+                  "href":"/dlm/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Health",
+                  "href":"/health/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"License Manager",
+                  "href":"/license-manager/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Managed Service for Grafana (AMG)",
+                  "href":"/grafana/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Managed Service for Prometheus (AMP)",
+                  "href":"/prometheus/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Management Console",
+                  "href":"/awsconsolehelpdocs/latest/gsg/getting-started.html?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"OpsWorks",
+                  "href":"/opsworks/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Organizations",
+                  "href":"/organizations/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Proton",
+                  "href":"/proton/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Service Catalog",
+                  "href":"/servicecatalog/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Service Quotas",
+                  "href":"/servicequotas/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Systems Manager",
+                  "href":"/systems-manager/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Tools for Powershell",
+                  "href":"/powershell/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Trusted Advisor",
+                  "href":"/aws-support/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Well-Architected Tool",
+                  "href":"/wellarchitected/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Management & Governance"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"Cloud9",
+                  "href":"/cloud9/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"CloudShell",
+                  "href":"/cloudshell/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"CodeArtifact",
+                  "href":"/codeartifact/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"CodeBuild",
+                  "href":"/codebuild/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"CodeCommit",
+                  "href":"/codecommit/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"CodeDeploy",
+                  "href":"/codedeploy/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"CodePipeline",
+                  "href":"/codepipeline/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"CodeStar",
+                  "href":"/codestar/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Fault Injection Simulator",
+                  "href":"/fis/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Porting Assistant for .NET",
+                  "href":"/portingassistant/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Tools & SDKs",
+                  "href":"https://aws.amazon.com/tools/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"X-Ray",
+                  "href":"/xray/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Developer Tools"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"Application Discovery Service",
+                  "href":"/application-discovery/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Application Migration Service",
+                  "href":"/mgn/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Database Migration Service",
+                  "href":"/dms/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"DataSync",
+                  "href":"/datasync/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Migration Hub",
+                  "href":"/migrationhub/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Schema Conversion Tool",
+                  "href":"/SchemaConversionTool/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Server Migration Service",
+                  "href":"/server-migration-service/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Snow Family",
+                  "href":"/snowball/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Transfer Family",
+                  "href":"/transfer/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Migration & Transfer"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"Amazon",
+                  "name":"API Gateway",
+                  "href":"/apigateway/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"App Mesh",
+                  "href":"/app-mesh/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Cloud Map",
+                  "href":"/cloud-map/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"CloudFront",
+                  "href":"/cloudfront/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Direct Connect",
+                  "href":"/directconnect/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Elastic Load Balancing",
+                  "href":"/elasticloadbalancing/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Global Accelerator",
+                  "href":"/global-accelerator/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Route 53",
+                  "href":"/route53/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"VPC",
+                  "href":"/vpc/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"VPN",
+                  "href":"/vpn/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Networking & Content Delivery"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"Cloud Digital Interface SDK",
+                  "href":"/CDI-SDK/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Elastic Transcoder",
+                  "href":"/elastic-transcoder/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Elemental MediaConnect",
+                  "href":"/mediaconnect/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Elemental MediaConvert",
+                  "href":"/mediaconvert/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Elemental MediaLive",
+                  "href":"/medialive/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Elemental MediaPackage",
+                  "href":"/mediapackage/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Elemental MediaStore",
+                  "href":"/mediastore/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Elemental MediaTailor",
+                  "href":"/mediatailor/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Elemental On-Premises",
+                  "href":"/elemental-on-premises/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Interactive Video Service",
+                  "href":"/ivs/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Nimble Studio",
+                  "href":"/nimble-studio/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Media Services"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"IoT Core",
+                  "href":"/iot/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"FreeRTOS",
+                  "href":"/freertos/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"IoT Analytics",
+                  "href":"/iotanalytics/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"IoT Device Defender",
+                  "href":"/iot-device-defender/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"IoT Device Management",
+                  "href":"/iot-device-management/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"IoT Events",
+                  "href":"/iotevents/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"IoT Greengrass",
+                  "href":"/greengrass/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"IoT SiteWise",
+                  "href":"/iot-sitewise/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"IoT Things Graph",
+                  "href":"/thingsgraph/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"IoT 1-Click",
+                  "href":"/iot-1-click/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Internet of Things (IoT)"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"Amplify",
+                  "href":"/amplify/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Amplify Android (AWS Mobile SDK for Android)",
+                  "href":"/sdk-for-android/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Amplify iOS (AWS Mobile SDK for iOS)",
+                  "href":"/sdk-for-ios/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"AppSync",
+                  "href":"/appsync/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Device Farm",
+                  "href":"/devicefarm/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Location Service",
+                  "href":"/location/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Mobile SDK for Unity",
+                  "href":"/sdk-for-unity/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Mobile SDK for Xamarin",
+                  "href":"/mobile/sdkforxamarin/developerguide/index.html"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Pinpoint",
+                  "href":"/pinpoint/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"SNS",
+                  "href":"/sns/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Front-End Web & Mobile"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"Amazon",
+                  "name":"WorkSpaces",
+                  "href":"/workspaces/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"AppStream 2.0",
+                  "href":"/appstream2/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"WorkLink",
+                  "href":"/worklink/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"WAM",
+                  "href":"/wam/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"NICE DCV",
+                  "href":"/dcv/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"End User Computing"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"Amazon",
+                  "name":"AppFlow",
+                  "href":"/appflow/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Athena",
+                  "href":"/athena/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"CloudSearch",
+                  "href":"/cloudsearch/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Data Exchange",
+                  "href":"/data-exchange/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Data Pipeline",
+                  "href":"/data-pipeline/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Elasticsearch Service",
+                  "href":"/elasticsearch-service/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"EMR",
+                  "href":"/emr/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"FinSpace",
+                  "href":"/finspace/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Glue",
+                  "href":"/glue/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Kinesis",
+                  "href":"/kinesis/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Lake Formation",
+                  "href":"/lake-formation/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"MSK",
+                  "href":"/msk/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"QuickSight",
+                  "href":"/quicksight/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Redshift",
+                  "href":"/redshift/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Analytics"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"Amazon",
+                  "name":"AppFlow",
+                  "href":"/appflow/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"EventBridge",
+                  "href":"/eventbridge/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Managed Workflows for Apache Airflow",
+                  "href":"/mwaa/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"MQ",
+                  "href":"/amazon-mq/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"SNS",
+                  "href":"/sns/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"SQS",
+                  "href":"/sqs/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Step Functions",
+                  "href":"/step-functions/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"SWF",
+                  "href":"/swf/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Application Integration"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"",
+                  "name":"Alexa for Business",
+                  "href":"/a4b/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Chime",
+                  "href":"/chime/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Connect",
+                  "href":"/connect/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Honeycode",
+                  "href":"/honeycode/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Pinpoint",
+                  "href":"/pinpoint/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Simple Email Service (Amazon SES)",
+                  "href":"/ses/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"WorkDocs",
+                  "href":"/workdocs/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"WorkMail",
+                  "href":"/workmail/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Business Applications"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"Managed Services",
+                  "href":"/managedservices/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Professional Services",
+                  "href":"https://aws.amazon.com/professional-services/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Support",
+                  "href":"https://aws.amazon.com/premiumsupport/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Training and Certification",
+                  "href":"https://aws.amazon.com/training/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"IQ",
+                  "href":"/aws-iq/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Customer Enablement Services"
+          },
+          {
+            "services":{
+              "service":{
+                "prefix":"AWS",
+                "name":"Ground Station",
+                "href":"/ground-station/?id=docs_gateway"
+              }
+            },
+            "title":"Satellite"
+          },
+          {
+            "services":{
+              "service":{
+                "prefix":"AWS",
+                "name":"RoboMaker",
+                "href":"/robomaker/?id=docs_gateway"
+              }
+            },
+            "title":"Robotics"
+          },
+          {
+            "services":{
+              "service":{
+                "prefix":"Amazon",
+                "name":"Braket",
+                "href":"/braket/?id=docs_gateway"
+              }
+            },
+            "title":"Quantum Computing"
+          },
+          {
+            "services":{
+              "service":{
+                "prefix":"Amazon",
+                "name":"Managed Blockchain",
+                "href":"/managed-blockchain/?id=docs_gateway"
+              }
+            },
+            "title":"Blockchain"
+          },
+          {
+            "services":{
+              "service":{
+                "prefix":"Amazon",
+                "name":"Sumerian",
+                "href":"/sumerian/?id=docs_gateway"
+              }
+            },
+            "title":"AR & VR"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"Amazon",
+                  "name":"GameLift",
+                  "href":"/gamelift/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Lumberyard",
+                  "href":"/lumberyard/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Game Development"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"Service Endpoints",
+                  "href":"/general/latest/gr/rande.html?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Security Credentials",
+                  "href":"/general/latest/gr/aws-security-credentials.html?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Service Quotas",
+                  "href":"/general/latest/gr/aws_service_limits.html?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Tagging AWS Resources",
+                  "href":"/general/latest/gr/aws_tagging.html?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Glossary",
+                  "href":"/general/latest/gr/glos-chap.html?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"General Reference"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"Application Cost Profiler",
+                  "href":"/application-cost-profiler/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Billing & Cost Management",
+                  "href":"/account-billing/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Pricing Calculator",
+                  "href":"/pricing-calculator/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Savings Plans",
+                  "href":"/savingsplans/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Billing & Cost Management"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"",
+                  "name":"Getting Started with the Console",
+                  "href":"/awsconsolehelpdocs/latest/gsg/getting-started.html?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Console Mobile Application",
+                  "href":"/consolemobileapp/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"AWS Management Console"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"Cloud Development Kit (AWS CDK)",
+                  "href":"/cdk/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Code Examples Repository",
+                  "href":"https://github.com/awsdocs/aws-doc-sdk-examples"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Command Line Interface (AWS CLI)",
+                  "href":"/cli/?id=docs_gateway"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Corretto",
+                  "href":"/corretto/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Crypto Tools",
+                  "href":"/aws-crypto-tools/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Serverless Application Model (AWS SAM)",
+                  "href":"/serverless-application-model/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"SDK for C++",
+                  "href":"/sdk-for-cpp/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"SDK for Go",
+                  "href":"/sdk-for-go/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"SDK for Java",
+                  "href":"/sdk-for-java/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"SDK for JavaScript",
+                  "href":"/sdk-for-javascript/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"SDK for .NET",
+                  "href":"/sdk-for-net/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"SDK for PHP",
+                  "href":"/sdk-for-php/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"SDK for Python (Boto3)",
+                  "href":"/pythonsdk/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"SDK for Ruby",
+                  "href":"/sdk-for-ruby/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Toolkit for Eclipse",
+                  "href":"/awstoolkiteclipse/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Toolkit for JetBrains",
+                  "href":"/toolkit-for-jetbrains/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Toolkit for Visual Studio",
+                  "href":"/aws-toolkit-visual-studio/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Toolkit for Visual Studio Code",
+                  "href":"/toolkit-for-vscode/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Tools for Powershell",
+                  "href":"/powershell/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Toolkit for Azure DevOps",
+                  "href":"/vsts/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"SDKs and Tools Reference Guide",
+                  "href":"/sdkref/latest/guide/overview.html?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"SDKs & Toolkits"
+          },
+          {
+            "services":{
+              "service":[
+                {
+                  "prefix":"AWS",
+                  "name":"Security Documentation",
+                  "href":"/security/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Alexa Top Sites",
+                  "href":"/alexa-top-sites/?id=docs_gateway"
+                },
+                {
+                  "prefix":"",
+                  "name":"Alexa Web Information Service",
+                  "href":"/awis/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Support",
+                  "href":"/aws-support/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Blockchain Templates",
+                  "href":"/blockchain-templates/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"General Reference",
+                  "href":"/general/latest/gr/Welcome.html?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Code Examples Repository",
+                  "href":"https://github.com/awsdocs/aws-doc-sdk-examples"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"GovCloud (US)",
+                  "href":"/govcloud-us/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Marketplace",
+                  "href":"/marketplace/?id=docs_gateway"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Prescriptive Guidance",
+                  "href":"https://aws.amazon.com/prescriptive-guidance/"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Quick Starts",
+                  "href":"https://aws.amazon.com/quickstart/"
+                },
+                {
+                  "prefix":"AWS",
+                  "name":"Solutions",
+                  "href":"https://aws.amazon.com/solutions/"
+                },
+                {
+                  "prefix":"Amazon",
+                  "name":"Silk",
+                  "href":"/silk/?id=docs_gateway"
+                }
+              ]
+            },
+            "title":"Additional Resources"
+          }
+        ]
+      },
+      "id":"user_guides",
+      "title":"Guides and API References"
+    }
+  }
+}
