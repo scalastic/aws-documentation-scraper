@@ -44,5 +44,4 @@ trait AwsWebScraper extends Model {
       case Failure(f) => return "Empty " + fieldsList.head
     }
   }
-
 }

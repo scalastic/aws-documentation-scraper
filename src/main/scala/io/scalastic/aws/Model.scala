@@ -1,5 +1,6 @@
 package io.scalastic.aws
 
+import io.scalastic.aws.AwsDocumentation.rootDocumentationUrl
 import org.json.XML
 import sttp.client3.{HttpURLConnectionBackend, basicRequest}
 import sttp.model.Uri
@@ -72,7 +73,7 @@ trait Model {
     protected def getCategory = category
   }
 
-  class MainPage(val uri: Uri) extends Page with Json {
+  class MainPage(val uri: Uri) extends Page with Json with Utils {
     override val category = "main"
 
     override def extract: Value = ujson.Obj(
@@ -85,7 +86,7 @@ trait Model {
     override def filter: Value = jsonContent("main-landing-page")
   }
 
-  class SubPage(val uri: Uri) extends Page with Json {
+  class SubPage(val uri: Uri) extends Page with Json with Utils {
     override val category = "sub"
 
     override def extract: Value = ujson.Obj(
@@ -127,6 +128,27 @@ trait Model {
 
     case class TestPage(uri: Uri) extends Json
   }
+}
 
+trait Utils {
+
+  def enhancer(jsonData: ujson.Value, previousTag: String): ujson.Value = jsonData match {
+    case a: ujson.Arr => {
+      a.arr.zipWithIndex.map { case (s, i) =>
+        if (a(i).isInstanceOf[ujson.Obj]) a(i)("id") = previousTag + i.toString
+        else a(i)
+        enhancer(a(i), previousTag + i.toString)
+      }
+    }
+    case o: ujson.Obj =>
+      o.obj.map {
+        case (k, v: ujson.Str) if k == "href" & v.str.startsWith("/") => {
+          o.obj(k) = ujson.Str(rootDocumentationUrl + v.str)
+          enhancer(v, previousTag + "-" + k)
+        }
+        case (k, v) => enhancer(v, previousTag + "-" + k)
+      }
+    case z => z
+  }
 }
 

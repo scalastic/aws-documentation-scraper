@@ -2,7 +2,7 @@ package io.scalastic.aws
 
 import scala.util.{Failure, Success}
 
-object AwsDocumentation extends AwsWebScraper with Serializer with IO with App {
+object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App {
 
   val rootDocumentationUrl: String = "https://docs.aws.amazon.com"
 
@@ -31,9 +31,15 @@ object AwsDocumentation extends AwsWebScraper with Serializer with IO with App {
       rootDocumentation
     }
   }
+  //println(fullDocumentation)
 
-  // 3. Write resulting JSON to file
-  write(fullDocumentationFilename, fullDocumentation)
+  // 3. Adds internal IDs to easily manage array data on UI components, correct relative URL links.
+  enhancer(fullDocumentation, "main")
+
+  println(fullDocumentation)
+
+  // 4. Write resulting JSON to file
+  //write(fullDocumentationFilename, fullDocumentation)
 
 }
 
