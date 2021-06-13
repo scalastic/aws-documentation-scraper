@@ -5,6 +5,7 @@ import scala.util.{Failure, Success}
 object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils with App {
 
   val rootDocumentationUrl: String = "https://docs.aws.amazon.com"
+  val entrypointDocumentationUrl: String = rootDocumentationUrl // + "/fr_fr/"
 
   val documentationPath: String = "./data/"
   val rootDocumentationFilename: String = "root-documentation"
@@ -15,7 +16,7 @@ object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils
     case Success(s: ujson.Value) => s
     case Failure(f) => {
       println(f)
-      val doc = extractDocumentation(rootDocumentationUrl)
+      val doc = extractDocumentation(entrypointDocumentationUrl)
       serialize(rootDocumentationFilename, doc)
       doc
     }

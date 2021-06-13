@@ -1,7 +1,8 @@
 package io.scalastic.aws
 
 import io.scalastic.aws.AwsDocumentation.rootDocumentationUrl
-import sttp.client3.UriContext
+import sttp.client3.{HttpURLConnectionBackend, UriContext, basicRequest}
+import ujson.Value.InvalidData
 
 import scala.util.{Failure, Success, Try}
 
@@ -23,16 +24,22 @@ trait AwsWebScraper extends Model {
   def extractDocumentation(url: String = rootDocumentationUrl): ujson.Value = {
 
     val pageUrl: String = if (url.startsWith("http")) url else rootDocumentationUrl + url
-    val pageUri = uri"$pageUrl"
 
-    val page: Page = PageFactory.build(pageUri)
+    val page: Page = PageFactory.build(uri"$pageUrl")
     page.extract
   }
 
-  /**
-   * @TODO :
-   *  - Manage href-only tag and then retrieve info from [https://docs.aws.amazon.com + href + meta-inf/guide-info.json]
-   */
+  def extractJson(url: String): ujson.Value = {
+
+    basicRequest
+      .get(uri"$url")
+      .send(HttpURLConnectionBackend())
+      .body match {
+      case Right(s) => ujson.read(s)
+      case Left(f) => throw InvalidData(ujson.read("{}"), "No JSON found on " + url)
+    }
+  }
+
   private def extractField(jsonData: ujson.Value, fieldsList: List[String]): ujson.Value = {
 
     if (fieldsList.isEmpty) return jsonData
