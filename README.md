@@ -8,8 +8,8 @@
 AWS documentation is a bottomless pit as their huge number of services and esoteric 
 names for someone who'd like to introduce to their world.
 
-Luckily their documentation website is XML encoded and so, it's possible to extract 
-each page data and build its own aggregated documentation. To further simplify the JSON format is used which allows, 
+Luckily their documentation website is XML encoded and so, it's possible to ***extract 
+each page data*** and build its own ***aggregated documentation***. To further simplify the ***JSON format*** is used which allows, 
 for example, to easily publish the doc on its own website.
 
 ## Requirements
