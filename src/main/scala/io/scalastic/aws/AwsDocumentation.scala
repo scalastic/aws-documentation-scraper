@@ -37,10 +37,9 @@ object AwsDocumentation extends AwsWebScraper with Serializer with IO with Utils
   // 3. Adds internal IDs to easily manage array data on UI components, correct relative URL links.
   enhancer(fullDocumentation, "main")
 
-  println(fullDocumentation)
-
   // 4. Write resulting JSON to file
-  //write(fullDocumentationFilename, fullDocumentation)
+  println(fullDocumentation)
+  write(fullDocumentationFilename, fullDocumentation)
 
 }
 
