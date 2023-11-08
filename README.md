@@ -37,7 +37,8 @@ The two serialized files are used for caching data, so don't forget to remove th
   
 ### Expected result
 
-You should a JSON file containing something like:
+You will obtain a JSON file with a structure similar to the following:
+
 ```json
 {
   "title":"AWS Documentation",
