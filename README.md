@@ -5,12 +5,7 @@
 ![code size](https://img.shields.io/github/languages/code-size/scalastic/aws-documentation-scraper) 
 ![maintain status](https://img.shields.io/maintenance/yes/2021)
 
-AWS documentation is a bottomless pit as their huge number of services and esoteric 
-names for someone who'd like to introduce to their world.
-
-Luckily their documentation website is XML encoded and so, it's possible to ***extract 
-each page data*** and build its own ***aggregated documentation***. To further simplify the ***JSON format*** is used which allows, 
-for example, to easily publish the doc on its own website.
+Are you struggling to navigate the vast and intricate world of AWS documentation? AWS provides a wealth of services with esoteric names that can be daunting for newcomers. Fortunately, AWS's documentation website is XML encoded, which means we can extract data from each page and create our own comprehensive documentation in JSON format. This allows for easy publication on your website or application.
 
 ## Requirements
 
@@ -21,12 +16,12 @@ Before you begin, ensure you have met the following prerequisites:
 
 ## Usage
 
-- Starts the app by entering:
+1. Launch the application by running the following command:
 ```
 sbt run
 ```
 
-- It will generate 3 files into `./data` folder:
+2. It will generate 3 files into `./data` folder:
     * `root-documentation.ser` which is the serialized data from the root 
       documentation page of AWS website (actually <https://docs.aws.amazon.com>),
       
@@ -38,8 +33,7 @@ sbt run
 
 ### Note:
 
-- The 2 serialized files are used to cache data, so don't forget to remove them if 
-  you want fresh and up-to-date data from AWS.
+The two serialized files are used for caching data, so don't forget to remove them if you need fresh and up-to-date data from AWS.
   
 ### Expected result
 
@@ -82,11 +76,9 @@ You should a JSON file containing something like:
   
 ## Example of rendering
 
-I'm currently rendering this JSON data on a `Jekyll` website, and I'm using the client side [json2html](https://json2html.com) 
-library which I find works great and is powerful. I'm also using `JQuery` and `Bootstrap` to respectively query the JSON and display as 
-HTML components.
+You can render this JSON data on a Jekyll website using the client-side json2html library, along with jQuery and Bootstrap for querying and displaying the JSON as HTML components.
 
-Here are the imports I'm using for:
+Here are the necessary imports for rendering:
 ```html
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -94,7 +86,7 @@ Here are the imports I'm using for:
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 ```
 
-And the dedicated `json2html` rendering script:
+Additionally, here is the dedicated json2html rendering script:
 ```javascript
   $.getJSON( "{{ site.url }}{{ site.baseurl }}/assets/full-documentation.json", function( data ) {
     
@@ -225,23 +217,19 @@ And the dedicated `json2html` rendering script:
   });
 ```
 
-You can have a look at the resulting page here [https://scalastic.io/en/aws-documentation/](https://scalastic.io/en/aws-documentation/).
+You can view the resulting page here: [https://scalastic.io/en/aws-documentation/](https://scalastic.io/en/aws-documentation/).
 
 ## Contributing to aws-documentation-scraper
 
-There are some cases where the tool doesn't scrap all content:
-- encapsulated XML is not always complete, so we have to get more data on <page-URL>/meta-inf/guide-info.json,
-- some others rely on pure HTML that the tool doesn't scrap.
-
-If you want to contribute to aws-documentation-scraper, follow these steps:
+There may be cases where the tool doesn't scrape all the content, such as when encapsulated XML is incomplete, or when some content relies on pure HTML that the tool cannot scrape. If you want to contribute to aws-documentation-scraper, follow these steps:
 
 1. Fork this repository.
-2. Create a branch with clear name: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
+2. Create a branch with a clear name: git checkout -b <branch_name>.
+3. Make your changes and commit them: git commit -m '<commit_message>'
+4. Push to the original branch: git push origin <project_name>/<location>
+5. Create a pull request.
 
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+For more information, see GitHub's documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## License
-This project uses the following license: [MIT](https://github.com/scalastic/aws-documentation-scraper/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/scalastic/aws-documentation-scraper/blob/main/LICENSE).
